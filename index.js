@@ -31,8 +31,8 @@ function iLoveTheBeatles(number) {
   
   do {
     beatles.push(newArray);
-    newArray++;
     console.log(beatles[number]);
+    number++;
     }
     while(7 <= number && number < 15);
     
