@@ -34,7 +34,7 @@ function iLoveTheBeatles(number) {
     console.log(beatles[number]);
     number++;
     }
-    while(7 <= number && number < 15);
+    while(number < 15);
     
       return beatles;
 }
